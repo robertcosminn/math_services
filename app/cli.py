@@ -1,9 +1,7 @@
 """Click-powered CLI – runs computations and logs them to SQLite."""
 from __future__ import annotations
 
-import json
 import sys
-from typing import Optional
 
 import click
 from tabulate import tabulate
